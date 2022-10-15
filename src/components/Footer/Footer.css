@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.powered {
+    background-color: #6368BF;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 1rem 1rem 0 0;
+    height: 48px;
+    transition: 0.4s;
+}
+
+.powered .divider {
+    height: 20px;
+    border: 1px white solid;
+    margin: 0 1rem;
+}
+
+.powered h4 {
+    font-weight: 300;
+    margin: 0 1.4rem 0 0;
+}
+
+.powered img {
+    width: 100px;
+}
+
+.credits {
+    background-color: #A68A56;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.credits h4 {
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+}
+
+.powered img {
+    cursor: pointer;
+}
+
+.powered a {
+    margin: 0;
+}

@@ -1,0 +1,34 @@
+.navbar {
+    width: 100%;
+    background-color: #1E28D9;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar img {
+    width: 8rem;
+}
+
+.header-icon {
+    font-size: 2rem;
+    margin-left: 4%;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-text h3 {
+    font-weight: 300;
+}
+
+.center-text hr {
+    margin-top: 0;
+    width: 60%;
+}

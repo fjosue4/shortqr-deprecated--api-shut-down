@@ -1,0 +1,125 @@
+.result {
+    display: flex;
+    gap: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.result h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem auto;
+}
+
+.copy-icon {
+    margin-bottom: -4px;
+    margin-left: -2.24rem;
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.copy-icon:active {
+    transform: scale(1.2);
+    color: #408140; 
+    transition: 0.2s;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.qr-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-link {
+    width: 184px;
+    padding: 1rem 1.4rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #EDEDED;
+    margin-bottom: 1.33rem;
+    letter-spacing: 0.6px;
+    color: #626262;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.customize {
+    display: flex;
+    align-items: center;
+    background-color: #665588 !important;
+    color: #fff !important;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.settings-icon {
+    font-size: 1rem;
+    margin-right: 0.4rem;
+}
+
+.customize-qr {
+    text-align: center;
+}
+
+.download-section {
+    margin: 2rem 0;
+    min-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.result-section{
+    margin-top: 1.4rem !important;
+}
+
+.download {
+    color: #fff;
+    background-color: #A68A56;
+    border: none;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.download-icon {
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+}
+
+.custom-field {
+    width: 140px;
+    padding: 1rem 1.4rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #EDEDED;
+    letter-spacing: 0.6px;
+    color: #3d3d3d !important;
+    transition: 0.4s;
+    border: #A68A56 1px solid;
+    z-index: 1;
+}
+
+.size-text {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.download-a {
+    text-decoration: none;
+}
