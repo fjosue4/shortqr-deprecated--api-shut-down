@@ -4,7 +4,7 @@ import { TailSpin } from 'react-loader-spinner';
 
 const urlOAPI = "https://api.urlo.in/api/short-url";
 
-function Loading (props) {
+function Loading(props) {
     const [shortLink, setShortLink] = useState("");
     const originalLink = props.originalLink;
 
@@ -26,7 +26,6 @@ function Loading (props) {
     props.onChange(shortLink);
   },[shortLink])
 
-    console.log('original ' + originalLink);
     return (
         <div className="center-content processing">
             <h1>We're processing your link...</h1>

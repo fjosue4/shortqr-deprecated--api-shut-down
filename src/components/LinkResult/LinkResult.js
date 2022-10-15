@@ -6,7 +6,7 @@ import { copiedToClipboard } from "../functions/validator";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { animated, useSpring } from '@react-spring/web'
 
-function LinkResult (props) {
+function LinkResult(props) {
     const [custom, setCustom] = useState(false);
     const [bgColor, setBgColor] = useState("fff");
     const [fgColor, setFgColor] = useState("000")
@@ -38,7 +38,6 @@ function LinkResult (props) {
     function updateFg(e) {
         let colorFull = e.target.value;
         let colorRegex = colorFull.replace(/^#/g, '');
-        console.log(colorRegex);
         setFgColor(colorRegex)
     }
 

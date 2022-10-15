@@ -36,7 +36,6 @@ function App() {
     const timeout = setTimeout(function() {
       setState(3);
     }, 2000);
-    console.log('shortLink is:' + shortLink);
     return () => clearTimeout(timeout)}
   }, [shortLink])
 

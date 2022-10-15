@@ -4,18 +4,17 @@ import { Toaster } from 'react-hot-toast';
 import { linkValidator } from "../functions/validator";
 import { notify } from "../functions/validator";
 
-function GetStarted (props) {
+function GetStarted(props) {
     const [value, setValue] = useState('');
     
-    function handleClick () {
+    function handleClick() {
         let validate = linkValidator(value);
-        console.log(validate);
         if (validate === true){
             props.onClick();
             props.onChange(value);
         } 
         else {
-                notify()
+                notify();
             }
     }
 
