@@ -71,6 +71,7 @@
 
 .customize-qr {
     text-align: center;
+
 }
 
 .download-section {
@@ -113,6 +114,10 @@
     transition: 0.4s;
     border: #A68A56 1px solid;
     z-index: 1;
+}
+
+.customize-qr > .custom-field {
+    margin-bottom: 1.33rem;
 }
 
 .size-text {

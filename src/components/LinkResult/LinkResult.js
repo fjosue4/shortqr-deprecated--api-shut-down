@@ -13,7 +13,7 @@ function LinkResult(props) {
     const [size, setSize] = useState("140");
     const originalLink = props.originalLink;
     const shortLink = props.shortLink;
-    const goqrAPI = `https://api.qrserver.com/v1/create-qr-code/?size=140x140&bgcolor=${bgColor}&color=${fgColor}&data=${shortLink}.png`;
+    const goqrAPI = `https://api.qrserver.com/v1/create-qr-code/?size=140x140&bgcolor=${bgColor}&color=${fgColor}&data=${shortLink}`;
 
     const fade = useSpring({
         opacity: custom ? 1 : 0,
