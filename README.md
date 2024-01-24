@@ -1,5 +1,7 @@
 # Welcome to the shortQR tool!
 
+UPDATE: urlo.in API is no longer working, if you fork it, make sure to change shortener provider.
+
 ## Features
 
 ### `URL shortener`
